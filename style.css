@@ -28,7 +28,6 @@ body {
 }
 figure img {
   border-radius: 50%;
-  border: 2px solid black;
   margin-bottom: 10%;
   margin-top: 0%;
 }
@@ -40,7 +39,14 @@ svg {
   z-index: -1;
 }
 /* nrone to nrfive is each div respectively containing each testimony */
+.nrone img {
+  border: 2px solid hsl(264, 82%, 80%);
+}
+.nrfive img {
+  border: 2px solid hsl(263, 55%, 52%);
+}
 .nrone {
+  border: 2px solid black;
   position: relative;
   background-color: hsl(263, 55%, 52%);
   color: rgb(223, 221, 221);
@@ -81,7 +87,7 @@ svg {
 }
 /* All testimony divs */
 div > div {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 2.5rem;
   max-width: 100%;
   box-shadow: 10px 10px 20px hsl(0, 0%, 7%);
@@ -100,7 +106,7 @@ figure {
 figcaption {
   margin: 0%;
   padding: 0%;
-  /* /* width: 100%;  */
+  /* width: 100%;  */
 }
 
 /* Media queries for mobile responsive ness */
