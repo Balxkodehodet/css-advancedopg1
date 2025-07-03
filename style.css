@@ -48,7 +48,7 @@ svg {
 .nrone {
   position: relative;
   background-color: hsl(263, 55%, 52%);
-  color: rgb(223, 221, 221);
+  color: hsl(0, 0%, 100%);
   gap: 1%;
   max-width: 100%;
   z-index: -10;
@@ -65,7 +65,7 @@ svg {
 } */
 .nrfive {
   background-color: hsl(219, 29%, 14%);
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 81%);
 }
 .testimonials-container {
   display: grid;
