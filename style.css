@@ -57,9 +57,9 @@ svg {
   background-color: hsl(224, 10%, 45%);
   color: hsl(0, 0%, 100%);
 }
-.nrthree > p {
-  background-color: black;
-}
+/* .nrthree > p {
+  max-width: 35ch;
+} */
 /*
 .nrfour {
   box-shadow: 10px 10px 20px hsl(0, 0%, 7%);
@@ -81,6 +81,7 @@ svg {
 }
 .testimonials-container > :nth-child(3) {
   grid-row: span 2;
+  max-width: 40ch;
 }
 .testimonials-container > :nth-child(5) {
   grid-column: span 2;
@@ -94,6 +95,7 @@ div > div {
 }
 p {
   max-width: 100%;
+  line-height: 1.3rem;
 }
 figure {
   display: grid;
