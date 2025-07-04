@@ -57,9 +57,10 @@ svg {
   background-color: hsl(224, 10%, 45%);
   color: hsl(0, 0%, 100%);
 }
-/* .nrthree {
-  box-shadow: 10px 10px 20px hsl(0, 0%, 7%);
+.nrthree > p {
+  background-color: black;
 }
+/*
 .nrfour {
   box-shadow: 10px 10px 20px hsl(0, 0%, 7%);
 } */
